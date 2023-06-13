@@ -1,7 +1,6 @@
 img{height: 350px; width: 350px;}
 *{text-align: center;}
-*{background-color: #A4BC92;}
-#MyResume{font-size: 60px; color: #DDFFBB;}
-#MyResume{background-color: #B3C99C;}
-h2{color: #C7E9B0; background-color: #B3C99C;}
-a{color: #C7E9B0;}
+*{background-color: #EDDBC0;}
+#MyResume{font-size: 60px; color: #B73E3E;background-color: #DBC8AC;}
+h2{font-size: 40px; color: #DD5353; background-color: #DBC8AC;}
+a{color: #DD5353;}
