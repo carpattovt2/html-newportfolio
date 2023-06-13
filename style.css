@@ -1,4 +1,7 @@
 img{height: 350px; width: 350px;}
 *{text-align: center;}
-*{background-color: indianred;}
-#MyResume{font-size: 60px; color: mediumspringgreen;}
+*{background-color: #A4BC92;}
+#MyResume{font-size: 60px; color: #DDFFBB;}
+#MyResume{background-color: #B3C99C;}
+h2{color: #C7E9B0; background-color: #B3C99C;}
+a{color: #C7E9B0;}
