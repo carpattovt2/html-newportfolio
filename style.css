@@ -4,3 +4,6 @@ img{height: 350px; width: 350px;}
 #MyResume{font-size: 60px; color: #B73E3E;background-color: #DBC8AC;}
 h2{font-size: 40px; color: #DD5353; background-color: #DBC8AC;}
 a{color: #DD5353;}
+html {font-family: fantasy;}
+*{font-family: 'Pacifico', cursive;}
+#otherWebLinks {border: 10px solid #B73E3E; background-color:#EDDBC0 ;}
