@@ -1,9 +1,68 @@
-img{height: 350px; width: 350px;}
-*{text-align: center;}
-*{background-color: #EDDBC0;}
-#MyResume{font-size: 60px; color: #B73E3E;background-color: #DBC8AC;}
-h2{font-size: 40px; color: #DD5353; background-color: #DBC8AC;}
-a{color: #DD5353;}
-html {font-family: fantasy;}
-*{font-family: 'Pacifico', cursive;}
-#otherWebLinks {border: 10px solid #B73E3E; background-color:#EDDBC0 ;}
+.MainPage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #E7AB79;
+    font-size: 48px;
+    padding: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MyResume{
+    font-weight: bold;
+    padding: 10px;
+    background-color: #B25068;
+    margin: 15px;
+    border-radius: 30px;
+    color: #4C3A51;
+    min-width: 400px;
+}
+#resume{
+    background-color: #C88EA7;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 400px;
+    color: #643843;
+    margin: 10px;
+}
+#experience{
+    background-color: #C88EA7;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 400px;
+    color: black;
+    margin: 10px;
+}
+#education{
+    color: #643843;
+    background-color: #E7CBCB;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 400px;
+    
+}
+#skills{
+    background-color: #E7CBCB;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 400px;
+    color: #643843;
+    margin: 10px;
+}
+#certificaties{
+    background-color: #99627A;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 400px;
+    color: #643843;
+    margin: 10px;
+}
+#useful{
+    background-color: #E7CBCB;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 400px;
+    max-width: 400px;
+    color: #643843;
+    margin: 10px;
+}
