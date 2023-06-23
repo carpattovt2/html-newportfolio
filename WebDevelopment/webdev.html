@@ -1,24 +1,138 @@
 <style>
-    
-
+    .container{
+        display: grid;
+        height: 1080px;
+        width: 1060px;
+        background-color: #245953;
+        grid-template-columns: 250px 250px 250px 250px;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        gap: 20px;
+        border-radius: 35px;
+        text-align: center;
+        justify-content: center;
+    }
+    .header{
+        grid-area: 1/1/2/5;
+        background-color: #E49393;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 60px;
+        color: #D8D8D8; 
+    }
+    .l1{
+        grid-area: 2/1/3/2;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l2{
+        grid-area: 2/2/3/3;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l3{
+        grid-area: 2/3/3/4;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l4{
+        grid-area: 2/4/3/5;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l5{
+        grid-area: 3/1/4/2;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l6{
+        grid-area: 3/2/4/3;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l7{
+        grid-area: 3/3/4/4;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l8{
+        grid-area: 3/4/4/5;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l9{
+        grid-area: 4/1/5/2;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l10{
+        grid-area: 4/2/5/4;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .l11{
+        grid-area: 4/4/5/5;
+        background-color: #408E91;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #D8D8D8;
+    }
+    .homepage{
+        grid-area: 5/1/6/5;
+        background-color: #E49393;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 60px;
+        color: #D8D8D8;
+    }
 </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
-
-    <div class="header"><a>Useful websites for Web Development:</a></div>
-    <div class="l1"><a></a><a href="https://www.keybr.com/">The site is to teach to how to type fast</a></div>
-    <div class="l2"><a></a><a href="https://stackoverflow.com/">Used for developers who stuck with their developing</a></div>
-    <div class="l3"><a></a><a href="https://chat.openai.com/">Chat GPT</a></div>
-    <div class="l4"><a></a><a href="https://developer.mozilla.org/en-US/">DeveloperMozilla</a></div>
-    <div class="l5"><a></a><a href="https://lipsum.com/">Lipsum - for fullfilling the web site in testing porpuse</a></div>
-    <div class="l6"><a></a><a href="https://colorhunt.co/">Colorhunt</a></div>
-    <div class="l7"><a></a><a href="https://fonts.google.com/">Fonts</a></div>
-    <div class="l8"><a></a><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox CSS</a></div>
-    <div class="l9"><a></a><a href="https://appbrewery.github.io/flex-layout/">Flex Layout Brewery</a></div>
-    <div class="l10"><a></a><a href="https://appbrewery.github.io/flexboxfroggy/#ru">FlexBox Froggy (game)</a></div>
-    <div class="l11"><a></a><a href="https://getbootstrap.com/">CSS Bootstrap</a></div>
-    <div class="l12"><a></a><a id="homepage" href="../">Home Page</a></div>
-    <div class="HomePage"><a></a><link rel="stylesheet" href="../index.html"></div>
+<div class="container">
+    <div class="header"><p>Useful websites for Web Development:</p></div>
+    <div class="l1"><a href="https://www.keybr.com/">The site is to teach to how to type fast</a></div>
+    <div class="l2"><a href="https://stackoverflow.com/">Used for developers who stuck with their developing</a></div>
+    <div class="l3"><a href="https://chat.openai.com/">Chat GPT</a></div>
+    <div class="l4"><a href="https://developer.mozilla.org/en-US/">DeveloperMozilla</a></div>
+    <div class="l5"><a href="https://lipsum.com/">Lipsum - for fullfilling the web site in testing porpuse</a></div>
+    <div class="l6"><a href="https://colorhunt.co/">Colorhunt</a></div>
+    <div class="l7"><a href="https://fonts.google.com/">Fonts</a></div>
+    <div class="l8"><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox CSS</a></div>
+    <div class="l9"><a href="https://appbrewery.github.io/flex-layout/">Flex Layout Brewery</a></div>
+    <div class="l10"><a href="https://appbrewery.github.io/flexboxfroggy/#ru">FlexBox Froggy (game)</a></div>
+    <div class="l11"><a href="https://getbootstrap.com/">CSS Bootstrap</a></div>
+    <div class="homepage"><a href="../">Home Page</a></div>
+</div>
